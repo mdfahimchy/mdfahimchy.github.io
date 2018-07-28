@@ -1,0 +1,132 @@
+/* ***** PLACE YOUR CUSTOM STYLES HERE ******/
+.menu > li > ul li a:hover{
+  color: #657287;
+  opacity: .5;
+}
+.widget > form > button{
+  width: 30%;
+  border: 2px solid #fff;
+}
+form > button:hover{
+  background: #3a539b;
+}
+.button-login:hover{
+  background: #3a539b;
+}
+.widget > form > input{
+  background: #f5f5f5;
+  border: none;
+  width: 65%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 0;
+}
+.slides > li{
+  height: 60px;
+}
+
+.slides > li > img{
+  object-fit: cover;
+}
+.menu > li > ul{
+  width: 300px;
+}
+
+/* MAP CSS in INDEX */
+.location{
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+#map img {
+  max-width: none;
+}
+#map{
+  width: 100%;
+  height: 615px;
+  float: left;
+}
+.country-locations{
+  /*float: left;*/
+  width: 231px;
+  height: 575px;
+  /*margin-top: 20px;*/
+  /*margin-bottom:  20px;*/
+  background-color: #EBEBEB;
+  /*margin-left: 2%;*/
+  display: none;
+  position: absolute;
+  left: 80%;
+  top:280px;
+  background-image: url('img/location_text_bg.png');
+  opacity: 0.9;
+}
+
+#countryName{
+  height: 10%;
+  /*background-color:#F7F7F7;*/
+  padding: 2%;
+  margin-top: 24px;
+  margin-bottom: 0;
+  color: #4b4b4b;
+  font-family: 'Century Gothic';
+  font-size: 25px;
+  font-weight: normal;
+}
+#message{
+  height: 80%;
+  overflow: auto;
+  padding: 2%;
+  list-style: none;
+  margin: 0%;
+}
+#message h3{
+  color: #4b4b4b;
+  font-family: 'Century Gothic';
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+#message li{
+  font-size: 14px;
+  color: #4b4b4b;
+  font-family: 'Century Gothic';
+  padding: 0% 0% 2% 2%;
+  line-height: 1.5;
+
+}
+/* MAP CSS ENDS */
+
+.date-form, .zip-form,.email-form{
+  background: #f5f5f5;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border-radius: 0;
+}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+    }
+  .our-locations, .bonded{
+    padding-top: 0px;
+  }
+.tabs {
+  padding-top: 0px;
+}
+footer > .btn:visited{
+  color: #fff;
+}
+.bg-dark{
+  background-color: #272072;
+}
+.outOfSight, .scrolled{
+  background: #34008B;
+}
