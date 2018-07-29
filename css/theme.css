@@ -43,7 +43,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 24px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
@@ -1808,7 +1808,7 @@ button.transparent:-ms-input-placeholder {
 input[type="submit"],
 button[type="submit"] {
   height: 50px;
-  line-height: 48px;
+  line-height: 47px;
   border: 2px solid #0e128a;
   background: #272072;
   color: #fff;
